@@ -1,0 +1,19 @@
+.container {
+    padding: 20px 0;
+}
+
+.repository-list-container {
+    margin-top: 34px;
+    position: relative;
+    overflow: auto;
+    height: calc(100vh - 180px);
+}
+
+.repository-list-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.repository-list-container .list-group-item {
+    padding: 8px 12px;
+}
